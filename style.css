@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+}
+
+/* NAVBAR */
+nav {
+  background: black;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00f2fe;
+}
+
+/* CONTAINER */
+.container {
+  margin-top: 80px;
+  background: rgba(0,0,0,0.3);
+  display: inline-block;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* INPUT FIELDS */
+input, select {
+  padding: 12px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #222;
+  transform: scale(1.05);
+}
+
+/* HEADINGS */
+h1, h2 {
+  margin-top: 20px;
+}
